@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { routerTransition } from '../../router.animations';
 
 @Component({
-    selector: 'app-grid',
-    templateUrl: './grid.component.html',
-    styleUrls: ['./grid.component.scss'],
+    selector: 'app-user',
+    templateUrl: './user.component.html',
+    styleUrls: ['./user.component.scss'],
     animations: [routerTransition()]
 })
-export class GridComponent implements OnInit {
+export class UserComponent implements OnInit {
+    user = "masihur"
     constructor() { }
     ngOnInit() { }
 }
